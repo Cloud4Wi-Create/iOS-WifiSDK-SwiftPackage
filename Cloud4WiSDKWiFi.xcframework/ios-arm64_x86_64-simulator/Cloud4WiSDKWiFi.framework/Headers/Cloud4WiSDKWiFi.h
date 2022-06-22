@@ -8,7 +8,6 @@
 #import "CustomerCreateResponse.h"
 #import "CustomerInfo.h"
 #import "CustomerQuery.h"
-#import "Policy.h"
 #import "WPA2EnterpriseProfile.h"
 
 //! Project version number for Cloud4WiSDKWiFi.
@@ -68,6 +67,7 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
  *
  */
 - (void) createCustomer: (Customer*) customer
+            deduplicate: (NSString *) deduplicateAttribute
               onSuccess: (void (^)(CustomerCreateResponse *resp)) onSuccess
                 onError: (void (^)(NSError *error)) onError;
 
@@ -96,6 +96,16 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
                     onError: (void (^)(NSError *error)) onError;
 
 /**
+ * Create empty customer with default policies.
+ *
+ * @param onSuccess - invoked if customer was created sucessfully
+ * @param onError - invoked if exception occurred
+ *
+ */
+- (void) setupCustomer: (void (^)(CustomerCreateResponse *resp)) onSuccess
+               onError: (void (^)(NSError *error)) onError;
+
+/**
  * Check if customer with provided via CustomerQuery properties already exists
  *
  * @param query - <CustomerQuery> object with at least one field initialized
@@ -113,7 +123,7 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
  * @param onError - invoked if exception occurred
  *
  */
-- (void) getListOfPolicies: (void (^)(NSArray<Policy *> *policies)) onSuccess
+- (void) getListOfPolicies: (void (^)(NSArray<NSString *> *policies)) onSuccess
                    onError: (void (^)(NSError *error)) onError;
 
 /**

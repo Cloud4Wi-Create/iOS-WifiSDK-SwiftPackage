@@ -25,6 +25,8 @@
 @property NSString *civilStatus;
 @property BOOL phoneVerified;
 @property BOOL emailVerified;
+@property NSNumber *ppd;
+@property NSNumber *profiling;
 @property NSDictionary *custom;
 @property NSDictionary *policies;
 @property CustomerDocument *document;

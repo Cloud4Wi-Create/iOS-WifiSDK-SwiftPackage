@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/Cloud4WiSDKWiFi.h</key>
 		<data>
-		OG9Cva/CLo2V24xm3O69FHKzEJ0=
+		zTwsEdRnAOco5SDrJYTk2XLMmlI=
 		</data>
 		<key>Headers/Customer.h</key>
 		<data>
-		BUay7uu1sGPoS+YiXK57sOaTvBQ=
+		u8HtwTATv+hasI+KRy8IDOOxXJA=
 		</data>
 		<key>Headers/CustomerCreateResponse.h</key>
 		<data>
@@ -28,17 +28,13 @@
 		<data>
 		1eBUv0Vmh/PsazovRg/JM8GxCz0=
 		</data>
-		<key>Headers/Policy.h</key>
-		<data>
-		aG7BNlWKhFM0fvFVOEwmc9mUos8=
-		</data>
 		<key>Headers/WPA2EnterpriseProfile.h</key>
 		<data>
 		AgtvYhBxmIlTBvAyc/TvVhmaWXc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gX9vitcDc0X7qDgOeo4R1kiiO0o=
+		cfJD0MUSzDllOM5mLqpha3aEhzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgc8RUQ4kqRQLBb1TVGp6JgFfMXYPjt/oQIZ7cSDSHI=
+			3/6J6xnopvpEzD4E5lqPu3YYtYfoMgyqdQo6QYtRDIA=
 			</data>
 		</dict>
 		<key>Headers/Customer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pUMtjtWC/P8tWxD7JcGN5gs5ni6+vW7xLP500Pvw9OU=
+			4LyjP/7/IqksYuSFl/pBQxeNdL26WReafEd+uC4Ue0E=
 			</data>
 		</dict>
 		<key>Headers/CustomerCreateResponse.h</key>
@@ -87,13 +83,6 @@
 			<key>hash2</key>
 			<data>
 			NP1UCGTVDokUSURmBARnIUANOVIEiqFt1Yjb2oN1YCM=
-			</data>
-		</dict>
-		<key>Headers/Policy.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PiRYlpInJu5OTdmtfel7I9Y8siy50hFcghfYPsR8yTU=
 			</data>
 		</dict>
 		<key>Headers/WPA2EnterpriseProfile.h</key>
