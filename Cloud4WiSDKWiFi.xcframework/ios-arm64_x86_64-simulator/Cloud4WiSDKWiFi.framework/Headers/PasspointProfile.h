@@ -1,15 +1,16 @@
 //
-//  WPA2EnterpriseProfile.h
+//  PasspointProfile.h
 //  Cloud4WiSDKWiFi
 //
 
-#ifndef WPA2EnterpriseProfile_h
-#define WPA2EnterpriseProfile_h
+#ifndef PasspointProfile_h
+#define PasspointProfile_h
 
-@interface WPA2EnterpriseProfile : NSObject
+@interface PasspointProfile : NSObject
 
-@property NSString *ssid;
-@property BOOL ssidHidden;
+@property NSString *realm;
+@property NSString *friendlyName;
+@property BOOL roaming;
 @property NSString *outerIdentity;
 @property NSString *username;
 @property NSArray<NSString *> *trustedServerNames;
@@ -22,4 +23,4 @@
 
 
 
-#endif /* WPA2EnterpriseProfile_h */
+#endif /* PasspointProfile_h */

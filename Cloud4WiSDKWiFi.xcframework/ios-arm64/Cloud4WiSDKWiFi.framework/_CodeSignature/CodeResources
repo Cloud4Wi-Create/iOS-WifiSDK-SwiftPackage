@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Cloud4WiSDKWiFi.h</key>
 		<data>
-		zTwsEdRnAOco5SDrJYTk2XLMmlI=
+		kzts6VdCKxEANiBIYje9cfZ0Yek=
 		</data>
 		<key>Headers/Customer.h</key>
 		<data>
@@ -28,13 +28,17 @@
 		<data>
 		1eBUv0Vmh/PsazovRg/JM8GxCz0=
 		</data>
+		<key>Headers/PasspointProfile.h</key>
+		<data>
+		b3woO9GiT6GyDEznvDXnb7HWaNw=
+		</data>
 		<key>Headers/WPA2EnterpriseProfile.h</key>
 		<data>
-		AgtvYhBxmIlTBvAyc/TvVhmaWXc=
+		k+FEJWxNb37lWXDWL22OBVqt63U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5cUReOnfhl+ZUNnoI0nHI3ztBq4=
+		71i066gjWN7erPA8x3BBei6Ugs8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/6J6xnopvpEzD4E5lqPu3YYtYfoMgyqdQo6QYtRDIA=
+			d+s6qnrzLtKbs3iR1SmofXNhcMH/plyxfFCc3YP/hx8=
 			</data>
 		</dict>
 		<key>Headers/Customer.h</key>
@@ -85,11 +89,18 @@
 			NP1UCGTVDokUSURmBARnIUANOVIEiqFt1Yjb2oN1YCM=
 			</data>
 		</dict>
+		<key>Headers/PasspointProfile.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tePA29Celi/H+YEFcrI/evvu+/L1oyIEhnl1W1hs9BU=
+			</data>
+		</dict>
 		<key>Headers/WPA2EnterpriseProfile.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wVPn20k97zDH5l3TUYP4cZa5kyiwFm1EYXYzoxpQF8=
+			lEOF+vldP4nxmj4Z6/v+4gpOkWTwTIcq8augqzUnUuQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

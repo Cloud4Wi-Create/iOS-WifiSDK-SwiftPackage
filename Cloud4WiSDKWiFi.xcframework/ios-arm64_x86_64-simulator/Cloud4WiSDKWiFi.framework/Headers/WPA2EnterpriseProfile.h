@@ -9,6 +9,7 @@
 @interface WPA2EnterpriseProfile : NSObject
 
 @property NSString *ssid;
+@property BOOL ssidHidden;
 @property NSString *outerIdentity;
 @property NSString *username;
 @property NSArray<NSString *> *trustedServerNames;

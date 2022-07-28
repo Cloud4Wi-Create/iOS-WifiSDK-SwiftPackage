@@ -8,6 +8,7 @@
 #import "CustomerCreateResponse.h"
 #import "CustomerInfo.h"
 #import "CustomerQuery.h"
+#import "PasspointProfile.h"
 #import "WPA2EnterpriseProfile.h"
 
 //! Project version number for Cloud4WiSDKWiFi.
@@ -45,7 +46,7 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
                             onError: (void (^)(NSError *error)) onError;
 
 /**
- * Add or update HotSpot 2.0 Wi-Fi profile
+ * Add or update Passpoint Wi-Fi profile
  *
  * @param username - authorization user name
  * @param password - authorization password
@@ -53,10 +54,10 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
  * @param onError -  invoked if profile installation fails
  *
  */
-- (void) createHotSpot20Profile: (NSString*) username
-                      password: (NSString*) password
-                     onSuccess: (void (^)(void)) onSuccess
-                       onError: (void (^)(NSError *error)) onError;
+- (void) createPasspointProfile: (NSString*) username
+                       password: (NSString*) password
+                      onSuccess: (void (^)(void)) onSuccess
+                        onError: (void (^)(NSError *error)) onError;
 
 /**
  * Create customer in the Volare platform (Guest User)
@@ -141,6 +142,11 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
  * Returns list of created WPA2EnterpriseProfiles
  */
 - (NSArray<WPA2EnterpriseProfile *> *) getCreatedWPA2EnterpriseProfiles;
+
+/**
+ * Returns list of created PasspointProfiles
+ */
+- (NSArray<PasspointProfile *> *) getCreatedPasspointProfiles;
 
 /**
  * Configure list of application to be interlinked with current
