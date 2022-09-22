@@ -23,8 +23,8 @@
 @property NSString *zipCode;
 @property NSString *companyName;
 @property NSString *civilStatus;
-@property BOOL phoneVerified;
-@property BOOL emailVerified;
+@property NSNumber *phoneVerified;
+@property NSNumber *emailVerified;
 @property NSNumber *ppd;
 @property NSNumber *profiling;
 @property NSDictionary *custom;

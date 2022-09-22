@@ -63,6 +63,7 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
  * Create customer in the Volare platform (Guest User)
  *
  * @param customer - user (Guest User) you want to create
+ * @param deduplicateAttribute - deduplicate new customer based on this param.
  * @param onSuccess - invoked if customer successfully created
  * @param onError - invoked if exception occurred
  *
@@ -71,6 +72,18 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
             deduplicate: (NSString *) deduplicateAttribute
               onSuccess: (void (^)(CustomerCreateResponse *resp)) onSuccess
                 onError: (void (^)(NSError *error)) onError;
+
+/**
+ * Update existing customer.
+ *
+ * @param customer - Customer with all fields that needs to be updated. All customer fields except 'username' and 'password' can be updated with this method.
+ * @param onSuccess - invoked if customer successfully updated
+ * @param onError - invoked if exception occurred
+ *
+ */
+- (void) updateCustomer: (Customer*) customer
+              onSuccess: (void (^)(BOOL)) onSuccess
+                onError: (void (^)(NSError *error)) onError NS_SWIFT_NAME( updateCustomer(_:onSuccess:onError:) );
 
 /**
  * Get customer info from API by providing login/password credentials

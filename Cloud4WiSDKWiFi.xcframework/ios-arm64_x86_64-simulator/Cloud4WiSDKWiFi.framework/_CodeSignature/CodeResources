@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/Cloud4WiSDKWiFi.h</key>
 		<data>
-		kzts6VdCKxEANiBIYje9cfZ0Yek=
+		P7+sO6f4EnR2pbOL/hReA64T2U4=
 		</data>
 		<key>Headers/Customer.h</key>
 		<data>
-		u8HtwTATv+hasI+KRy8IDOOxXJA=
+		2LLG3hDekQQMC1iUAwMUTK+55Mw=
 		</data>
 		<key>Headers/CustomerCreateResponse.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DTwNKXCP9Z4utTTyNA7MMZ5pUqA=
+		TZTjMZ6zznXXxLnpQzAnkShAkHk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+s6qnrzLtKbs3iR1SmofXNhcMH/plyxfFCc3YP/hx8=
+			PLLeroyTVZOQM6C8HscG48luCKdJdC11eehHKEFKEo4=
 			</data>
 		</dict>
 		<key>Headers/Customer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4LyjP/7/IqksYuSFl/pBQxeNdL26WReafEd+uC4Ue0E=
+			Gu2MtvAVuFnvzkgF8nd2hCSFS3Nml+98fkZX8HLAVtY=
 			</data>
 		</dict>
 		<key>Headers/CustomerCreateResponse.h</key>
