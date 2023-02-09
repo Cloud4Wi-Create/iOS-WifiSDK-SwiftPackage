@@ -162,6 +162,16 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
 - (NSArray<PasspointProfile *> *) getCreatedPasspointProfiles;
 
 /**
+ * Deletes installed Passpoint profile
+ */
+- (void) deletePasspointProfile;
+
+/**
+ * Deletes installed WPA2Enterprise profile
+ */
+- (void) deleteWPA2EnterpriseProfile;
+
+/**
  * Configure list of application to be interlinked with current
  *
  * @param identifiers - list of applications identifiers
@@ -176,6 +186,7 @@ FOUNDATION_EXPORT const unsigned char Cloud4WiSDKWiFiVersionString[];
 /**
  * Removes the customerId saved during the create customer
  * Removes any reference to the customer
+ * Removes Wi-Fi profiles related to the customer
  */
 - (void) logout;
 
