@@ -1,6 +1,6 @@
 framework module Cloud4WiSDKWiFi {
   umbrella header "Cloud4WiSDKWiFi.h"
-
   export *
+
   module * { export * }
 }

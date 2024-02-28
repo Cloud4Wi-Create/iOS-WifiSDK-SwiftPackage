@@ -28,6 +28,10 @@
 		<data>
 		1eBUv0Vmh/PsazovRg/JM8GxCz0=
 		</data>
+		<key>Headers/HttpRequest.h</key>
+		<data>
+		G+UeknzC7t/n8pEutshYjKG/FAk=
+		</data>
 		<key>Headers/PasspointProfile.h</key>
 		<data>
 		b3woO9GiT6GyDEznvDXnb7HWaNw=
@@ -38,11 +42,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2XIao9P3DansDrhw58dMJRZ2rRI=
+		P1aK2WkxhcZM/RE+X/8+XPLmMNo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		R+KtjZCjrd1O92n/ulldicpOm4Y=
+		hX+T7CZJlxsFvVVU/ZDXWr0mG+M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,6 +93,13 @@
 			NP1UCGTVDokUSURmBARnIUANOVIEiqFt1Yjb2oN1YCM=
 			</data>
 		</dict>
+		<key>Headers/HttpRequest.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e6VhWkegc7FsfB/VxsKXnRX5BSWnKabhcBSgY2BblMY=
+			</data>
+		</dict>
 		<key>Headers/PasspointProfile.h</key>
 		<dict>
 			<key>hash2</key>
@@ -107,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5KskIrHu3MXFqY308Bg3VvMXsZJ3RS317Esei/BFgc=
+			81uWnGsPWDA9U9RBEcCxZ9eEm7sY/DnmR019Z2NFBIM=
 			</data>
 		</dict>
 	</dict>
